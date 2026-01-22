@@ -93,8 +93,8 @@ export const Footer = () => {
                     </div>
                     <div className="flex flex-col md:flex-row gap-14 justify-between items-center py-16 md:py-10">
                         <div className="text-xl text-center md:text-left">
-                            Se você leu isso aqui, saiba que está no caminho certo!<br />
-                            Continue lutando e você chegará lá...
+                            Projeto criado para fins educacionais.<br />
+                            Todos os direitos reservados. B7Web 
                         </div>
                         <div className="flex justify-center">
                             <FooterButton

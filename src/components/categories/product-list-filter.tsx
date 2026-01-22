@@ -19,7 +19,7 @@ export const ProductListFilter = () => {
     return (
         <div>        
             <div className="flex flex-col md:flex-row gap-6 justify-between items-start md:items-center">
-                <div className="text-3xl"><strong>{data.products.length}</strong>Produto{data.products.length != 1 ? 's' : ''}</div>
+                <div className="text-3xl"><strong>{data.products.length}</strong> Produto{data.products.length != 1 ? 's' : ''}</div>
                 <div className="flex flex-row w-full md:max-w-70 gap-5">
                     <select 
                         defaultValue={order} 
