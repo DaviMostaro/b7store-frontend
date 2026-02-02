@@ -21,5 +21,10 @@ export const data = {
         price: 19.90,
         liked: false,
         description: 'Alguma descrição do produto'
-    }
+    },
+    addresses: [
+        { id: 1, zipcode: '12345-678', street: 'Rua das Flores', number: '123', city: 'São Paulo', state: 'SP', country: 'Brasil'},
+        { id: 2, zipcode: '91011-121', street: 'Rua das Flores', number: '124', city: 'São Paulo', state: 'SP', country: 'Brasil'},
+        { id: 3, zipcode: '31415-161', street: 'Rua das Flores', number: '125', city: 'São Paulo', state: 'SP', country: 'Brasil'}
+    ]
 }
