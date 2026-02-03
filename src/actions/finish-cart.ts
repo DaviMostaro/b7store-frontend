@@ -1,8 +1,18 @@
 "use server"
 
+import { api } from "@/libs/axios";
 import { CartItem } from "@/types/cart-item"
 
 export const finishCart = async (token: string, addressId: number, cart: CartItem[]) => {
-    // TODO: requisição para finalizar compra e gerar url de pagameno.
-    return 'https://google.com';
+    try {
+        const response = await api.post('/cart/finish', { cart, addressId }, {
+            headers: {
+                Authorization: `Bearer ${token}`
+            }
+        });
+        if(response.data.url) {
+            return response.data.url;
+        }
+    } catch {}
+    return null;
 }

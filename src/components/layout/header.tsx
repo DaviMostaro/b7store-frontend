@@ -9,7 +9,7 @@ import { MenuItem } from "@/types/menu-item";
 
 export function Header() {
     const menu: MenuItem[] = [
-        { label: 'Camisa', href: '/categories/camisa' },
+        { label: 'Camisas', href: '/categories/camisas' },
         { label: 'Kits', href: '/categories/kits' }
     ];
     const [menuOpened, setMenuOpened] = useState(false);

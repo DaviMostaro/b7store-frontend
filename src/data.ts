@@ -9,7 +9,8 @@ export const data = {
         { id: 1, label: 'Camisa PHP', price: 49.40, image: '/assets/products/camiseta-php.png', liked: false },
         { id: 2, label: 'Camisa Laravel', price: 39.40, image: '/assets/products/camiseta-laravel-branca.png', liked: false },
         { id: 3, label: 'Camisa Node', price: 29.40, image: '/assets/products/camiseta-node.png', liked: false },
-        { id: 4, label: 'Camisa React', price: 19.40, image: '/assets/products/camiseta-react-azul.png', liked: false }
+        { id: 4, label: 'Camisa React', price: 19.40, image: '/assets/products/camiseta-react-azul.png', liked: false },
+        { id: 5, label: 'Camisa React', price: 19.40, image: '/assets/products/camiseta-react-azul.png', liked: false }
     ],
     product: {
         id: 1,
