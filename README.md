@@ -52,6 +52,7 @@ http://localhost:3000
 - [x] Funcionalidade 2 – Design responsivo
 - [x] Funcionalidade 3 - Integração com sistema de pagamentos STRIPE
 - [x] Funcionalidade 4 - Sistema de filtros por categorias de produtos
+- [x] Funcionalidade 5 - Validação de formulário com ZOD
 
 
 ## Em desenvolvimento
